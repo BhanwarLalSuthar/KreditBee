@@ -1,0 +1,171 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+    padding: 0px;
+    background-color: #f9f9f9;
+    max-width: 1300px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 20px;
+    background-color: white;
+  
+}
+.logos img{
+    height: 150px;
+    width: 150px;
+}
+.nav-link{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-link li{
+    display: inline-block;
+}
+.nav-link a{
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+.sign-up-btn{
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 1px solid #ff5c5c;
+}
+.why-kreditbee{
+    
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #fff;
+}
+.why-kreditbee h1{
+    font-size: 32px;
+    margin-bottom: 1px;
+}
+hr{
+    border: 4px solid gold;
+    width: 70px;
+    border-radius: 5px;
+    margin-bottom: 100px
+}
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.feature-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:  rgba(0, 0, 0, 0.15) 0px -2.4px 10.4px 0px,
+     rgba(0, 0, 0, 0.25) 0px 3.2px 3.2px 0px;
+    max-width: 300px;
+    text-align: left;
+}
+.feature-card h3 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.feature-card p{
+    color: #553
+}
+.blog{
+    padding: 50px 20px;
+}
+.blog h2 {
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 20px;
+    padding-left: 7%;
+}
+
+.blog-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 350px;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius:  10px 10px 0px 0px;
+
+}
+.card h3 {
+    margin: 15px;
+    font-size: 15px;
+}
+.card p {
+    margin: 15px;
+    color: #555;
+}
+.create-account{
+    background-color: #ffe066;
+    padding: 50px 20px;
+    text-align: center;
+}
+.account-form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+form{
+    text-align: left;
+}
+.account-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.account-form p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.account-form label {
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+}
+.account-form input{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.account-form button{
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.account-form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
